@@ -7,6 +7,11 @@
     position: relative;
 }
 
+.cabecalho .link__logo {
+    width: 80px;
+    height: auto;
+}
+
 .escuro {
     width: 100vw;
     height: 100vh;

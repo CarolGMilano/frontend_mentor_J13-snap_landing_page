@@ -46,6 +46,9 @@
 
 .feature__img,
 .company__img {
+    width: 11px;
+    height: auto;
+
     margin-left: .5rem; 
 }
 

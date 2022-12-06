@@ -69,3 +69,13 @@
     align-items: center;
     column-gap: 1rem;
 }
+
+.container__empresas .empresas__logo {
+    width: 80px;
+    height: auto;
+}
+
+.container__empresas:nth-child(2) .empresas__logo {
+    width: 50px;
+    height: auto;
+}
