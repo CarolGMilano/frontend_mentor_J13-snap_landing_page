@@ -75,7 +75,7 @@
     height: auto;
 }
 
-.container__empresas:nth-child(2) .empresas__logo {
+.container__empresas .empresas__logo:nth-child(2) {
     width: 50px;
     height: auto;
 }
