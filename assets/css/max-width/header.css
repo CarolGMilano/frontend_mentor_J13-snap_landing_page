@@ -1,0 +1,19 @@
+@media screen and (min-width: 1000px) {
+    .cabecalho {
+        width: 1000px;
+        align-self: center;
+    }
+
+    .link__logo {
+        width: 80px;
+    }
+
+    .naveg__ul li:nth-child(1) .naveg__link,
+    .naveg__ul li:nth-child(2) .naveg__link,
+    .naveg__ul li:nth-child(3) .naveg__link,
+    .naveg__ul li:nth-child(4) .naveg__link,
+    .naveg__login,
+    .naveg__registro   {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,71 @@
+.corpo {
+    display: flex;
+    flex-direction: column;
+
+    padding: .5rem;
+}
+
+.corpo__img {
+    width: 100%;
+    height: 300px;
+
+    background: url("../../img/image-hero-mobile.png") no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    margin-bottom: 3rem;
+}
+
+.corpo__container {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+}
+
+.corpo__container .container__titulo {
+    color: var(--preto);
+    font-size: 35px;
+    font-weight: 700;
+
+    padding-bottom: 1rem;
+}
+
+.corpo__container .container__descricao {
+    color: var(--cinza);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.4rem;
+
+    width: 340px;
+
+    padding-bottom: 1rem;
+
+    align-self: center;
+}
+
+.corpo__container .container__link {
+    color: var(--branco);
+    font-size: 15px;
+    font-weight: 700;
+
+    padding: .8rem;
+    margin-bottom: 3rem;
+
+    width: 130px;
+
+    border-radius: 12px;
+    
+    background-color: var(--preto);
+
+    align-self: center;
+
+    border: 1px solid var(--preto);
+}
+
+.corpo__container .container__empresas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1rem;
+}

@@ -1,0 +1,30 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 1.5rem;
+
+    position: relative;
+}
+
+.escuro {
+    width: 100vw;
+    height: 100vh;
+
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    opacity: .5;
+
+    background-color: var(--preto); 
+}
+
+.cabecalho__menuHamburguer {
+    width: 35px;
+    height: 20px;
+
+    background: url("../../img/icon-menu.svg") no-repeat;
+    background-position: center;
+    background-size: contain;
+}

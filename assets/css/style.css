@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
+
+@import url('mobile/body.css');
+@import url('mobile/header.css');
+@import url('mobile/main.css');
+@import url('mobile/naveg.css');
+
+@import url('desktop/header.css');
+@import url('desktop/main.css');
+
+@import url('max-width/body.css');
+@import url('max-width/header.css');
+@import url('max-width/main.css');
+
+:root {
+    --branco: hsl(0, 0%, 98%);
+    --branco-puro: hsl(0, 0%, 100%);
+    --cinza: hsl(0, 0%, 41%);
+    --preto: hsl(0, 0%, 8%);
+
+    --fonte: 'Epilogue', sans-serif;
+}

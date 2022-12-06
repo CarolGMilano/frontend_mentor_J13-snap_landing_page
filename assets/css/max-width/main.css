@@ -1,0 +1,33 @@
+@media screen and (min-width: 1000px) {
+    .corpo {
+        width: 1000px;
+        align-self: center;
+    }
+
+    .corpo__container .container__titulo {
+        width: 400px;
+
+        font-size: 60px;
+    }
+
+    .corpo__container .container__descricao {
+        font-size: 16px;
+    
+        width: 380px;
+
+        padding-bottom: 3rem;
+
+        line-height: 1.7rem;
+    }
+
+    .corpo__container .container__link {
+        font-size: 18px;
+        text-align: center;
+    
+        padding: .7rem;
+    
+        width: 150px;
+
+        margin-bottom: 5rem;
+    }
+}

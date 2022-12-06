@@ -1,0 +1,122 @@
+.naveg {
+    background-color: var(--branco);
+
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    width: 65vw;
+    height: 100vh;
+
+    flex-direction: column;
+    
+    padding: 1.5rem;
+}
+
+.naveg__icone {
+    background: url("../../img/icon-close-menu.svg") no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    width: 25px;
+    height: 25px;
+
+    align-self: end;
+
+    margin-bottom: 2rem;
+}
+
+.naveg__ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.naveg__ul li {
+    padding-bottom: 1rem;
+}
+
+.naveg__ul li:nth-child(1) .naveg__link,
+.naveg__ul li:nth-child(2) .naveg__link,
+.naveg__ul li:nth-child(3) .naveg__link,
+.naveg__ul li:nth-child(4) .naveg__link  {
+    color: var(--cinza);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.feature__img,
+.company__img {
+    margin-left: .5rem; 
+}
+
+.feature,
+.company {
+    padding: 1.5rem 0 0 1rem;
+    flex-direction: column;
+}
+
+.feature li:nth-child(1) .features__link,
+.feature li:nth-child(2) .features__link,
+.feature li:nth-child(3) .features__link,
+.feature li:nth-child(4) .features__link,
+.company li:nth-child(1) .company__link,
+.company li:nth-child(2) .company__link,
+.company li:nth-child(3) .company__link {
+    color: var(--cinza);
+    font-size: 15px;
+}
+
+.feature li:nth-child(1) .features__link {
+    background: url("../../img/icon-todo.svg") no-repeat;
+    background-position: left center;
+    background-size: 14px;
+
+    padding-left: 1.6rem;
+}
+
+.feature li:nth-child(2) .features__link {
+    background: url("../../img/icon-calendar.svg") no-repeat;
+    background-position: left center;
+    background-size: 14px;
+
+    padding-left: 1.6rem;
+}
+
+.feature li:nth-child(3) .features__link {
+    background: url("../../img/icon-reminders.svg") no-repeat;
+    background-position: left center;
+    background-size: 14px;
+
+    padding-left: 1.6rem;
+}
+
+.feature li:nth-child(4) .features__link {
+    background: url("../../img/icon-planning.svg") no-repeat;
+    background-position: left center;
+    background-size: 14px;
+
+    padding-left: 1.6rem;
+}
+
+.cabecalho__btn {
+    display: flex;
+    flex-direction: column;
+}
+
+.naveg__login,
+.naveg__registro {
+    padding: 1rem 0;
+
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--cinza);
+
+    text-align: center;
+}
+
+.naveg__registro {
+    padding: .7rem 0;
+
+    border: 2px solid var(--cinza);
+    border-radius: 10px;
+}

@@ -1,0 +1,66 @@
+@media screen and (min-width: 700px) {
+    .corpo {
+        flex-direction: row-reverse;
+        align-items: center;
+
+        padding: .5rem 1.5rem;
+    }
+
+    .corpo__img {
+        width: 50%;
+        height: 80vh;
+    
+        background: url("../../img/image-hero-desktop.png") no-repeat;
+        background-position: center;
+        background-size: contain;
+    
+        margin-bottom: 0;
+    }
+
+    .corpo__container {
+        width: 50%;
+
+        text-align: start;
+    }
+
+    .corpo__container .container__titulo {
+        width: 270px;
+
+        font-size: 40px;
+
+        padding-bottom: 2rem;
+    }
+
+    .corpo__container .container__descricao {
+        font-size: 12px;
+    
+        width: 300px;
+    
+        align-self: flex-start;
+    }
+
+    .corpo__container .container__link {
+        font-size: 12px;
+        text-align: center;
+    
+        padding: .7rem;
+    
+        width: 110px;
+    
+        border-radius: 12px;
+        
+        background-color: var(--preto);
+    
+        align-self: flex-start;
+    }
+
+    .corpo__container .container__link:hover {
+        color: var(--preto);
+
+        background-color: var(--branco);
+    }
+
+    .corpo__container .container__empresas {
+        justify-content: flex-start;
+    }
+}

@@ -1,0 +1,16 @@
+body {
+    background-color: var(--branco);
+    font-family: var(--fonte);
+}
+
+.none {
+    display: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.hidden {
+    overflow: hidden;
+}
